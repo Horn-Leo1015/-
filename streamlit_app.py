@@ -16,4 +16,4 @@ random_number = st.number_input('1から100の間で好きな数字を入力し�
 if st.button('占う'):
     # 乱数に応じた運勢を取得
     fortune = get_fortune(random_number)
-    st.write(f'あなたの今日の運勢は...{fortune}です！')
+    st.write(f'あなたの今日の運勢は...{fortune}！')
