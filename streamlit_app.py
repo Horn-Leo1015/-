@@ -3,7 +3,7 @@ import random
 
 # 乱数を生成して運勢を返す関数
 def get_fortune(random_number):
-    fortunes = ["大吉", "中吉", "小吉", "吉", "凶",]
+    fortunes = ["大吉", "中吉", "小吉", "吉", "凶"]
 
 # Webアプリケーションのタイトルを設定
 st.title('今日の運勢を占う')
